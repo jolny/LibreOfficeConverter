@@ -1,10 +1,11 @@
-# LibreOfficeConverter
+# Libre Office Converter - convert XLS to XLSX with Python
 A "lightweight" python script which converts XLS files to XLSX using Libre Office in headless mode.
+Other conversion types should be possible, but are not implemented (yet).
 
 ## Prerequisites
 
 * Python 2.x or 3.x
-* Libre Office ;)
+* Libre Office
 
 Tested on Ubuntu
 
@@ -12,6 +13,7 @@ Tested on Ubuntu
 
 ### Quick stand-alone conversion
 To convert a set of XLS files to XLSX, run the script as such:
+
 `python LibreOfficeConverter.py **files`
 
 If no files are specified, the script will convert all files in the current working directory.
@@ -29,3 +31,6 @@ Optional arguments:
 Whether to print output from LibreOffice. Default value: False
 * `files`
 Files to convert. If empty list, convert all in cwd. Default value: []
+
+## Contributing
+Want to add other conversion options, arguments or features? Feel free to make a pull request!
